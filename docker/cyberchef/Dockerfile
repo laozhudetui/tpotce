@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.13.7
 #
 # Get and install dependencies & packages
 RUN apk -U --no-cache add \
