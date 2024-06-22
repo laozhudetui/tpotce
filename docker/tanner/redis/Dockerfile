@@ -1,4 +1,4 @@
-FROM redis:alpine
+FROM redis:7.2.5-alpine3.20
 #
 # Include dist
 ADD dist/ /root/dist/
